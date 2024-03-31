@@ -1,0 +1,8 @@
+settings({ country: input.country || "in" });
+navigate(input.url);
+let product = parse().data;
+console.log('prser',parse())
+//for (let product of prd)
+{
+  collect(product);
+}
